@@ -1,0 +1,57 @@
+h1, article, footer, form {
+    text-align: center;
+    
+}
+
+
+
+header {
+    margin-left: 5px;
+}
+
+footer {
+    margin: 10px;
+}
+
+p {
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a {
+    margin-left: 3%;
+    
+}
+
+/* unvisited link */
+a:link {
+    color: lightseagreen;
+  }
+  
+  /* visited link */
+a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+a:hover {
+    font-weight: bold;
+  }
+  
+  /* selected link */
+a:active {
+    text-decoration: none;
+  }
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+td, tr {
+    padding: 5px;
+    margin: 5px;
+}

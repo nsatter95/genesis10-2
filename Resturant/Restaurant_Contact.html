@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Nick's Emporium Contact</title>
+        
+        <script type="text/javascript" src="Restaurant.js"></script>
+
+        <noscript>
+            <style type="text/css">
+                .pagecontainer {display:none;}
+            </style>
+            <div class="noscriptmsg">
+            You don't have javascript enabled.  Good luck with that.
+            </div>
+        </noscript>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link href="restaurantStyles.css" rel="stylesheet">
+        <style>
+        form {
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav .btn {
+    background-color: #5b7d87;
+    color: #fef9ff; 
+            }
+        </style>
+	</head>
+	<body>
+
+        <div class="pagecontainer">
+        <div class="jumbotron">
+            <h2 style="text-align: center;"">New Location Opening February 2020!!</h2>
+            <p style="text-align: center;">Edina location is OFFICIALLY opening on Febrary 1st, 2020! Just in time for Super Bowl LIV!!</p>
+          </div>
+
+        <div class="container-fluid">
+            <header>
+                <h3>Contact Page</h3>
+            </header>
+
+            <hr>
+
+            <div id="restaurantName">
+                <h1>
+                    Nick's Emporium
+                </h1>
+            </div>
+            
+            <hr>
+            
+            <nav>
+                <a class="btn badge-pill" href="Restaurant_Home.html"><span class="glyphicon glyphicon-home"></span></a>
+                <a class="btn badge-pill" href="Restaurant_Menu.html">Menu</a>
+                <a class="btn badge-pill" href="Restaurant_Contact.html">Contact Us</a>
+            </nav>
+
+            <hr>
+
+
+                <form class="form-horizontal" name="contactForm" target="_blank" action="Restaurant_Submission_Validation.html">
+
+                    <div class="form-group">
+
+                      <label class="control-label col-sm-2" for="name">Name:</label>
+                      <div class="col-sm-10">
+                      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                      </div>
+
+                    </div>
+
+                    <div class="form-group">
+
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-10">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="phone">Phone:</label>
+                        <div class="col-sm-10">
+                        <input type="password" class="form-control" id="phone" placeholder="Enter phone number" name="phoneNumber" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="inputState">Reason for inquiry:</label>
+                        <div class="col-sm-10">
+                        <select id="inputState" class="form-control" required>
+                          <option selected>Catering</option>
+                          <option>Private Party</option>
+                          <option>Feedback</option>
+                          <option value="">Other</option>
+                        </select>
+                        </div>
+                      </div>
+                    
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="additionalInfo">Additional Info:</label>
+                        <div class="col-sm-10">
+                        <input type="password" class="form-control" id="additionalInfo" placeholder="Additional Info?" name="additionalInfo">
+                        </div>
+
+
+                    <div class="form-check form-check-inline">
+
+                        <label class="control-label col-sm-2" for="inputState">Have you been to the restaurant before?:</label>
+                    
+
+                        <div>
+                        <input class="form-check-input" name="radioButton" type="radio" id="inlineRadio1" value="option1" checked>
+                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                        
+                                
+                        <input class="form-check-input" name="radioButton" type="radio" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                        </div>
+
+                    </div>
+                  
+                    <br>
+
+
+                    <div class="form-check form-check-inline">
+                        <label class="control-label col-sm-2" for="inputState">Best day to contact you?:</label>
+                        
+                        <div>
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">M</label>
+                     
+                    
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">T</label>
+                     
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">W</label>
+
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Th</label>
+
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">F</label>
+                        </div>
+                     
+                    </div>
+
+                    <br>
+
+                   
+                    <div class="form-check form-check-inline">
+                    <button type="submit" class="btn btn-default" value="Submit">Submit Request</button>
+                    </div>
+
+                  </form>
+
+                  
+
+
+            <hr>
+
+
+            <footer>
+                1300 Hennepin Avenue, Minneapolis, MN, 55403 
+                <br>
+                952-220-2263
+            </footer>
+
+
+
+            
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+        crossorigin="anonymous"></script>
+	
+	</div>
+	</body>
+</html>

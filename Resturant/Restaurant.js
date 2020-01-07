@@ -1,0 +1,5 @@
+$('#carouselSlides').carousel()
+
+function validateItems() {
+    
+  }
